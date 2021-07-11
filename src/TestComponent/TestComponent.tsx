@@ -25,6 +25,7 @@ const StyledDescription = styled.h2``;
 const TestComponent: React.FC<TestComponentProps> = ({ theme }) => (
   <StyledDiv data-testid="test-component" theme={theme}>
     <StyledHeading className="heading">I'm the test component</StyledHeading>
+    <div>I'm new</div>
   </StyledDiv>
 );
 
